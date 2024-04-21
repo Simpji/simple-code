@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+#header{
+    margin: 2rem;
+}
+#heade{
+     width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+     font-size: 15px;
+}
+.head span{
+    color: brown;
+}
+
+.hea ul{
+    display: flex;
+    gap: 25px;
+}
+
+.hea ul li{
+   font-size: 15px;
+}
+
+/* styling home */
+.menu{
+    display: none;
+}
+#home{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+}
+.homes{
+    width: 50%;
+}
+.hom img{
+    width: 370px;
+    height: 370px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+.homes{
+    width: 50%;
+}
+.homes h5{
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+.homes h1{
+    padding-bottom: 3%;
+}
+.homes button{
+    width: 30%;
+    margin-top: 3%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.homes span{
+    color: brown;
+}
+.homes button:hover{
+    background-color: #a52a2acf;
+}
+/* styling home done*/
+
+/* styling about */
+#abouts{
+    margin: 4rem 0;
+}
+#about{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 10rem;
+}
+.about img{
+    width: 500px;
+    height: 300px;
+}
+.abouts{
+    margin: 3rem;
+}
+.abouts h5{
+    margin-bottom: 3%;
+    font-size: 25px;
+    color: #a52a2acf;
+}
+.abouts h2{
+    margin-bottom: 2%;
+}
+.abouts p{
+    margin-bottom: 2%;
+    font-size: 17px;
+}
+.abou{
+    gap: 1rem;
+}
+.abou button{
+    width: 30%;
+    margin-top: 3%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.abou button:hover{
+    background-color: #a52a2acf;
+}
+/* styling about done*/
+
+/* styling services */
+#Service{
+    text-align: center;
+}
+#Service p{
+    color: #a52a2acf;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.son img{
+    width: 150ppx;
+    height: 150px;
+}
+.services{
+    display: flex;
+    margin: 3% 0;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.son{
+    width: 350px;
+    height: 350px;
+    box-shadow: 3px 3px 5px #0000ffc2;
+    margin-bottom: 3rem;
+}
+.son h2{
+    padding: 3% 0;
+}
+.son p{
+    padding-bottom: 5%;
+}
+.son span{
+    font-size: 19px;
+}
+/* styling services done*/
+
+/* styling properties */
+#prop{
+    text-align: center;
+    margin-bottom: 2%;
+}
+#prop p{
+    color: #a52a2acf;
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+.properties{
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.proper img{
+    width: 400px;
+    height: 250px;
+}
+.prop{
+    /* width: 80%; */
+    text-align: center;
+}
+.prop span{
+    font-size: 20px;
+    color: #a52a2acf;
+}
+.prop h1{
+    padding-bottom: 2%;
+}
+.prop p{
+    padding-bottom: 2%;
+}
+.pro img{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.pro{
+    display: flex;
+    gap: 3%;
+}
+/* styling properties done*/
+
+/* styling aminities */
+.aminit{
+    margin: 5% 0;
+    text-align: center;
+}
+.aminit p{
+    color: #a52a2acf;
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+.amin{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 4rem;
+}
+.ami{
+    width: 270px;
+    height: 270px;
+    /* background-color:  #0000ff35; */
+    border-radius: 5%;
+    box-shadow: 0px 0px 20px #f5deb3dd;
+}
+.ami{
+    color: #a52a2acf;
+   padding-top: 6%;
+}
+.ami:hover{
+    background-color: bisque;
+    color: #fff;
+}
+.ami h3:hover{
+    color: white;
+    
+} 
+.ami i{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: wheat;
+}
+.ami img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  
+}
+.ami h3{
+    color: black;
+   padding-top: 15%;
+}
+/* styling aminities done*/
+
+/* styling footer */
+#footer{
+    width: 100%;
+    height: 30vh;
+    margin-top: 4%;
+    text-align: center;
+    background-color: #0000ffc2;
+}
+.foot{
+    padding-top: 4%;
+    color: #fff;
+    font-size: 20px;
+}
+.foot p{
+    padding-bottom: 1%;
+}
+/* styling footer done*/
+
+
+@media (Max-Width: 767px) {
+    #heade .bx-menu{
+        display: inline;
+    }
+    #heade .menu{
+        border: 1px solid slategray;
+        border-radius: 10px;
+        display: block;
+    }
+    #heade{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #heade .hea{
+        display: none;
+    }
+    .menu{
+        padding: 10px;
+        font-size: 60px;
+    }
+    .menu p{
+        font-size: 60px;
+    }
+    .menu p{
+        font-size: 10px;
+    }
+   #home{
+        width: 90%;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 7rem;
+    }
+    .homes{
+        width: 100%;
+        text-align: center;
+        padding: 0 3%;
+    }
+    .homes p{
+        padding-bottom: 4%;
+    }
+    .homes h1{
+        padding-bottom: 4%;
+        font-size: 24px;
+    }
+    .homes button{
+        width: 70%;
+        margin-top: 3%;
+        padding: 10px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .hom img{
+        width: 270px;
+        height: 270px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+        padding: 3%;
+        gap: 10rem;
+    }
+    .abouts{
+        margin: 0;
+    }
+    .abouts button{
+        width: 70%;
+        margin-top: 3%;
+        padding: 10px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .about img{
+        width: 280px;
+        height: 280px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        margin: 3% 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3%;
+    }
+    .son{
+        width: 290px;
+        height: 290px;
+        box-shadow: 0px 0px 5px #0000ffc2;
+        margin-bottom: 3rem;
+    }
+    .properties{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+        gap: 2rem;
+    }
+    .proper img{
+        width: 280px;
+        height: 200px;
+    }
+    .pro img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .aminit{
+       padding-top: 3rem;
+        text-align: center;
+    }
+}
